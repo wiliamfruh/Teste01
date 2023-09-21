@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A106B72-7383-40FF-B158-2A1DF7664687" name="T_SGV_DEPARTAMENTO">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabela departamento - criada a partir da 1FN]]></commentInRDBMS>
+<generatorID>2C5BB2B7-7956-5AB7-CD6F-75B6877411FB</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_departamento" id="B3612E57-BE39-76A9-ABD8-09B117CE4C64">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código do departamento]]></commentInRDBMS>
+<generatorID>28CFF5C8-CABA-B2F4-81DF-E42717F74A3A</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_departamento" id="AE8803D6-FC81-38CB-3B51-B1A3209ED9E5">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sigla do departamento]]></commentInRDBMS>
+<generatorID>15916BF3-535A-5051-88B2-F8F609F715E5</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_departamento" id="DF6BDB0D-3CC4-5EDF-ED16-94BF014C2CD5">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriçao do departametno]]></commentInRDBMS>
+<generatorID>98B9D59E-8AC4-70FA-6BF7-0BD8CB8FDD21</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B52D34F9-DD2E-BFF7-D287-9051CB6D7BCB" name="PK_T_SGV_DEPARTAMENTO">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<generatorID>1FAFBEA0-2048-F3D4-0010-5966AFA65343</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3612E57-BE39-76A9-ABD8-09B117CE4C64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D08C0932-2739-6D88-C75C-296905738D7E" name="UN_T_SGV_DEPARTAMENTO">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-05 00:32:05 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE8803D6-FC81-38CB-3B51-B1A3209ED9E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

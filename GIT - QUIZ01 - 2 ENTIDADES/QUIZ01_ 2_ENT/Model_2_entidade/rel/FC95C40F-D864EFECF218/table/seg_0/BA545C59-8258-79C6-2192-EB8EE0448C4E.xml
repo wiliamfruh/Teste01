@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA545C59-8258-79C6-2192-EB8EE0448C4E" name="T_SGV_FUNCIONARIO">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<comment><![CDATA[Tabela funcionarios]]></comment>
+<commentInRDBMS><![CDATA[Tabela funcionários]]></commentInRDBMS>
+<generatorID>2A1F588C-F62E-8215-DE41-1ECFFA56045B</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_funcionario" id="53AAF691-EFEE-4903-E269-2FBB8D8CEE34">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<comment><![CDATA[Código do funcionário]]></comment>
+<commentInRDBMS><![CDATA[Código do funcionário]]></commentInRDBMS>
+<generatorID>03997344-4925-1930-3450-5E479F7B6200</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_departamento" id="A196B5AD-B86D-E272-CC62-1954BCA4780D">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<comment><![CDATA[Código do departamento]]></comment>
+<commentInRDBMS><![CDATA[Código do departamento]]></commentInRDBMS>
+<generatorID>0D8F2071-DC9C-EFF7-0917-5EFE94F7B5D1</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22AFE343-B190-93E5-FE27-60605022F256" referredColumn="B3612E57-BE39-76A9-ABD8-09B117CE4C64"/>
+</associations>
+</Column>
+<Column name="nr_cpf" id="2F3C25AD-A62C-2846-00EA-43EED8852627">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<comment><![CDATA[Número do CPF do funcionário - Unique]]></comment>
+<commentInRDBMS><![CDATA[Número do CPF do funcionário - Unique]]></commentInRDBMS>
+<generatorID>ECF0A572-97F8-B5B2-3312-E9D5F2B07C5E</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_funcionario" id="22E62E5C-59CF-2A5E-1E0A-5A78753E4229">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<comment><![CDATA[Nome do funcionário]]></comment>
+<commentInRDBMS><![CDATA[Nome do funcionário]]></commentInRDBMS>
+<generatorID>CB385591-FCA3-1133-5514-C081D87979DB</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="32B277DF-5273-FE20-7347-25EEFC151325">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<comment><![CDATA[Data de nascimento do funcionário]]></comment>
+<commentInRDBMS><![CDATA[Data de nascimento do funcionário]]></commentInRDBMS>
+<generatorID>037AC4AB-94D2-4D2E-53BD-4FAD94C56E45</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="E2368D84-33E3-D869-8699-F751E04C72A1">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<comment><![CDATA[Número do telefone do funcionário - dddnnnnnnnnn]]></comment>
+<commentInRDBMS><![CDATA[Número do telefone do funcionário - dddnnnnnnnnn]]></commentInRDBMS>
+<generatorID>70D1BA52-4F1C-6283-F5CD-CD98435AB629</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="33FFECF2-0C69-5E52-3614-475BB9DCB1CB">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Email do funcionário]]></commentInRDBMS>
+<generatorID>8E128D0B-0B63-FFB0-641C-86A99819FF7A</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cargo" id="DD5A86E2-A0DA-5700-AB83-2353C21F44F4">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cargo do funcionário]]></commentInRDBMS>
+<generatorID>D614336D-413F-0FFD-F8E6-547AF1EE4A05</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF7A8FB3-BAA2-0A92-A3D1-D38F47917217" name="PK_T_SGV_FUNCIONARIO">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<generatorID>7D322EC7-6ADC-C722-4609-95528C9DA2B5</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53AAF691-EFEE-4903-E269-2FBB8D8CEE34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12DE3887-4F22-02EE-C86A-F294BEAD3678" name="UN_T_SGV_FUNCIONARIO">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:54:37 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F3C25AD-A62C-2846-00EA-43EED8852627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDD42AFD-D6A6-3C63-20C3-6D4A3EF7138D" name="FK_SGV_FUNC_DEPTO">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<generatorID>2560881F-AA7F-A645-C8C3-58A69CBF23E6</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A196B5AD-B86D-E272-CC62-1954BCA4780D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

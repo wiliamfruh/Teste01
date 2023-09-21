@@ -1,0 +1,66 @@
+
+Table T_SGV_DEPENDENTE created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Table T_SGV_DEPENDENTE altered.
+
+
+Table T_SGV_FUNCIONARIO created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Table T_SGV_FUNCIONARIO altered.
+
+
+Table T_SGV_FUNCIONARIO altered.
+
+
+Table T_SGV_DEPENDENTE altered.
+
+
+Table T_SGV_FUNCIONARIO altered.
+

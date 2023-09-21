@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A1F588C-F62E-8215-DE41-1ECFFA56045B" name="T_SGV_FUNCIONARIO">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-08-31 23:53:17 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<engineerTo>
+<item key="FC95C40F-4D8B-49F8-3CDE-D864EFECF218" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_funcionario" id="03997344-4925-1930-3450-5E479F7B6200">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-08-31 23:53:32 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<engineerTo>
+<item key="FC95C40F-4D8B-49F8-3CDE-D864EFECF218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_departamento" id="0D8F2071-DC9C-EFF7-0917-5EFE94F7B5D1">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-01 00:02:52 UTC</createdTime>
+<generatorID>2560881F-AA7F-A645-C8C3-58A69CBF23E6</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<engineerTo>
+<item key="FC95C40F-4D8B-49F8-3CDE-D864EFECF218" value="true"/>
+</engineerTo>
+<referedAttribute>28CFF5C8-CABA-B2F4-81DF-E42717F74A3A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="CB385591-FCA3-1133-5514-C081D87979DB">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-08-31 23:53:50 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<engineerTo>
+<item key="FC95C40F-4D8B-49F8-3CDE-D864EFECF218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="ECF0A572-97F8-B5B2-3312-E9D5F2B07C5E">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-08-31 23:54:09 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<engineerTo>
+<item key="FC95C40F-4D8B-49F8-3CDE-D864EFECF218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="037AC4AB-94D2-4D2E-53BD-4FAD94C56E45">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-08-31 23:54:24 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<engineerTo>
+<item key="FC95C40F-4D8B-49F8-3CDE-D864EFECF218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="70D1BA52-4F1C-6283-F5CD-CD98435AB629">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-08-31 23:54:38 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<engineerTo>
+<item key="FC95C40F-4D8B-49F8-3CDE-D864EFECF218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="8E128D0B-0B63-FFB0-641C-86A99819FF7A">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-08-31 23:55:03 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<engineerTo>
+<item key="FC95C40F-4D8B-49F8-3CDE-D864EFECF218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cargo" id="D614336D-413F-0FFD-F8E6-547AF1EE4A05">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-08-31 23:55:26 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<engineerTo>
+<item key="FC95C40F-4D8B-49F8-3CDE-D864EFECF218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D322EC7-6ADC-C722-4609-95528C9DA2B5" name="T_SGV_FUNCIONARIO PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-08-31 23:53:48 UTC</createdTime>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<engineerTo>
+<item key="FC95C40F-4D8B-49F8-3CDE-D864EFECF218" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03997344-4925-1930-3450-5E479F7B6200</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

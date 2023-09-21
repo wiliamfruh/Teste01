@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="2A1F588C-F62E-8215-DE41-1ECFFA56045B" name="T_SGV_FUNCIONARIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="52887DC9-317A-498C-EF72-7D1D6C563B0F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="2C5BB2B7-7956-5AB7-CD6F-75B6877411FB" name="T_SGV_DEPARTAMENTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="52887DC9-317A-498C-EF72-7D1D6C563B0F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="4BAEA153-2CB4-E6D0-8BC8-9F046675A6DA" name="T_SIP_DEPENDENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="52887DC9-317A-498C-EF72-7D1D6C563B0F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="2560881F-AA7F-A645-C8C3-58A69CBF23E6" name="Relation_3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="52887DC9-317A-498C-EF72-7D1D6C563B0F" propertySourceId="2C5BB2B7-7956-5AB7-CD6F-75B6877411FB" propertyTargetId="2A1F588C-F62E-8215-DE41-1ECFFA56045B"/>
+   <object objectType="Relation" objectID="2FFF4EFA-DE04-9448-6057-D620E0B293E0" name="Relation_20" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="52887DC9-317A-498C-EF72-7D1D6C563B0F" propertySourceId="2A1F588C-F62E-8215-DE41-1ECFFA56045B" propertyTargetId="4BAEA153-2CB4-E6D0-8BC8-9F046675A6DA"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

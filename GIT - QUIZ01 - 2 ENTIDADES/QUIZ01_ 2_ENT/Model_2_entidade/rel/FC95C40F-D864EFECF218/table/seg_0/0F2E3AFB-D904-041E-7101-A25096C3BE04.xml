@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F2E3AFB-D904-041E-7101-A25096C3BE04" name="T_SGV_DEPENDENTE">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<comment><![CDATA[Tabela dos dependentes dos funcionários]]></comment>
+<commentInRDBMS><![CDATA[Tabela dos dependentes dos funcionários]]></commentInRDBMS>
+<generatorID>4BAEA153-2CB4-E6D0-8BC8-9F046675A6DA</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<ordsAlias>t_sip_dependente</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_funcionario" id="CF8AF648-70B4-C6D6-FBEA-95CACA2279CE">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código do funcionário]]></commentInRDBMS>
+<generatorID>E2CB0CF1-8BAF-EA69-3A09-B417C48DBBA4</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0BF9F32-A9C2-1C41-18AD-A76AA2D650C0" referredColumn="53AAF691-EFEE-4903-E269-2FBB8D8CEE34"/>
+</associations>
+</Column>
+<Column name="cd_dependente" id="2E94274F-F928-BE4D-C137-70FAB4A06639">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código do dependente]]></commentInRDBMS>
+<generatorID>9CC64CD1-342C-3328-E908-CA620FFB6B6C</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_dependente" id="C8EE4E5C-D9D2-270B-BB74-93EAA6E59D69">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do dependente]]></commentInRDBMS>
+<generatorID>3A281555-5995-C5CD-56B2-D24854BE991A</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nasc_dep" id="6C326941-E05B-A109-DF2A-EA9DB6CAA66C">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de nascimento do dependente]]></commentInRDBMS>
+<generatorID>AF9589FF-A343-6155-62AA-B01F123B1BE2</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_sexo" id="742BDBF5-0736-2A6B-29B5-90F55CCF4693">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sexo do dependente]]></commentInRDBMS>
+<generatorID>C1549B36-449F-07C2-8CB7-482497AAF616</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4104CEC-F4C1-8E3D-7856-DBDBB8CA0741" name="PK_T_SIP_DEPENDENTE">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<generatorID>B36A216D-93BA-C7B5-A5FC-E36CF1A98B87</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E94274F-F928-BE4D-C137-70FAB4A06639"/>
+<colUsage columnID="CF8AF648-70B4-C6D6-FBEA-95CACA2279CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DC3DC31-2202-7A35-0361-72740F190653" name="FK_SGV_DEPEND_FUNC">
+<createdBy>Administrator</createdBy>
+<createdTime>2023-09-04 23:16:42 UTC</createdTime>
+<generatorID>2FFF4EFA-DE04-9448-6057-D620E0B293E0</generatorID>
+<ownerDesignName>Model_2_entidade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF8AF648-70B4-C6D6-FBEA-95CACA2279CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
